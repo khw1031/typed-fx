@@ -1,0 +1,45 @@
+{
+  "name": "typed-fx",
+  "version": "0.0.1",
+  "description": "A modern functional JavaScript helper library",
+  "homepage": "https://typed-fx.com",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser",
+    "javascript"
+  ],
+  "author": "Kei Kim <kei.kim86@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/khw1031/typed-fx.git"
+  },
+  "main": "dist/typed-fx.js",
+  "module": "dist/typed-fx.es.js",
+  "types": "dist/typed-fx.d.ts",
+  "files": ["dist"],
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "build": "rollup -c",
+    "build:watch": "rollup -cw"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.11",
+    "babel-jest": "^24.5.0",
+    "jest": "^24.5.0",
+    "rollup": "^1.7.4",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-typescript2": "^0.20.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.1"
+  }
+}
